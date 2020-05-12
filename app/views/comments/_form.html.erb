@@ -1,7 +1,7 @@
 <h3>Post a Comment</h3>
 <%= form_for [ @article, @comment ] do |f| %>
   <p>
-    <%= f.label :author_name %><br/>
+    <%= f.label :author_name,"Your name" %><br/>
     <%= f.text_field :author_name %>
   </p>
   <p>
